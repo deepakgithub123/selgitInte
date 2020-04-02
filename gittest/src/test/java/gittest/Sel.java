@@ -3,14 +3,17 @@ package gittest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 //comment the above line and uncomment below line to use Chrome
 //import org.openqa.selenium.chrome.ChromeDriver;
 public class Sel {
 
 
-  public static void main(String[] args) {
+//  public static void main(String[] args) {
       // declaration and instantiation of objects/variables
-  
+  @Test
+  public void SS()
+  {
 System.setProperty("webdriver.chrome.driver","D:\\Sumit_Backup\\Automation\\Workspace\\TestPOMDeepak\\src\\test\\java\\com\\qa\\Driver\\chromedriver.exe");		
 WebDriver driver=new ChromeDriver();
 //WebDriver driver=new ChromeDriver(cap);
