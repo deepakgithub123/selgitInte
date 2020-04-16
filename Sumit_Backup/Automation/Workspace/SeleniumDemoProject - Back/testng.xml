@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.listeners.MyListener"></listener>
+</listeners>
+
+<test name="Ecommerce Site Automation">
+<parameter name="browser" value="chrome" />	
+
+<classes>
+<!--  	<class name="com.testCases.BasePageTest"></class>  -->
+	<class name="com.testCases.SignupTest"></class>	
+</classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
